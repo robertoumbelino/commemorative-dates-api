@@ -30,6 +30,16 @@ Technologies used in this project.
 
 This project is a API that return commemorative dates from Brazil.
 
+_Routes_
+
+---
+
+🔗 Get commemorative dates from current day.
+
+```
+https://commemorative-dates-api.herokuapp.com/current-commemorative-dates
+```
+
 ## 📝 License
 
 Used MIT license.
