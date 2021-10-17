@@ -9,6 +9,10 @@ async function bootstrap() {
   const prismaService = app.get(PrismaService)
   prismaService.enableShutdownHooks(app)
 
+  setInterval(() => {
+    console.log('Running')
+  }, 60000 * 5)
+
   await app.listen(process.env.PORT || 3000)
 }
 bootstrap()
